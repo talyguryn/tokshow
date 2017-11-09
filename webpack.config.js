@@ -4,7 +4,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
     entry: './public/src/entry.js',
     output: {
-        filename: './public/bundle/bundle.js'
+        filename: './public/build/bundle.js'
     },
     module: {
         rules: [
@@ -18,7 +18,8 @@ module.exports = {
                         loader: 'css-loader',
                         options: {
                             minimize: 1,
-                            importLoaders: 1
+                            importLoaders: 1,
+                            url: 0
                         }
                     },
                     {
@@ -52,7 +53,7 @@ module.exports = {
     plugins: [
         /** Build separated styles bundle */
         new ExtractTextPlugin({
-            filename: './public/bundle/bundle.css',
+            filename: './public/build/bundle.css',
             allChunks: true,
         }),
         /** Minify JS and CSS */

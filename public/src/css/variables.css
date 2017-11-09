@@ -1,0 +1,17 @@
+/**
+ * Variables
+ */
+:root {
+    --page-max-width: 1140px;
+
+    --margin: 20px;
+
+    /** Colors */
+    --bg-dark: #231f20;
+    --border-color: #444041;
+}
+
+/**
+ * Custom media queries
+ */
+@custom-media --mobile all and (max-width: 980px);

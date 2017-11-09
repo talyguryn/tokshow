@@ -1,3 +1,17 @@
-body {
-    background-color: red;
+@font-face {
+    font-family: Corbel;
+    src: url(/public/src/font/Corbel_regular.ttf);
 }
+
+body {
+    font-family: Corbel;
+}
+
+
+.page {
+    margin: 0 auto;
+    max-width: var(--page-max-width);
+    background-color: var(--bg-dark);
+}
+
+@media (--mobile) {}
