@@ -3,15 +3,45 @@
     src: url(/public/src/font/Corbel_regular.ttf);
 }
 
+@font-face {
+    font-family: Corbel;
+    src: url(/public/src/font/Corbel_bold.ttf);
+    font-weight: bold;
+}
+
 body {
     font-family: Corbel;
 }
-
 
 .page {
     margin: 0 auto;
     max-width: var(--page-max-width);
     background-color: var(--bg-dark);
+}
+
+.space {
+    margin: 20px;
+    background-color: #ddd;
+    height: 300px;
+}
+
+a:link {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--link-color-hover);
+}
+
+a:active {
+    text-decoration: underline;
 }
 
 @media (--mobile) {}

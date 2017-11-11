@@ -10,4 +10,6 @@
 @import "./variables.css";
 @import "./base.css";
 @import "./navigator/menu.css";
+@import "./header.css";
+@import "./partners.css";
 @import "./footer.css";

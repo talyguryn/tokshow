@@ -1,0 +1,88 @@
+.partners {
+    margin: 20px;
+}
+
+.partners-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 25px;
+    align-items: flex-end;
+}
+
+.partners-header__label {
+    margin: 15px;
+    width: 207px;
+
+    background-image: url(/public/src/img/partners-label.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 65px;
+}
+
+.partners-header__tokshow-logo {
+    margin: 15px;
+    width: 273px;
+    height: 157px;
+    background-image: url(/public/src/img/tokshow-logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.partners-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners-list-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partners-list-line__item {
+    margin: 15px;
+    width: 120px;
+    height: 60px;
+    background-color: #808285;
+    display: inline-block;
+}
+
+@media (--mobile) {
+    .partners-header {
+        justify-content: center;
+    }
+
+    .partners-header__label {
+        width: 150px;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 45px;
+    }
+
+    .partners-header__tokshow-logo {
+        display: none;
+    }
+
+    .partners-list {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .partners-list-line {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
