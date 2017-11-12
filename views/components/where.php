@@ -8,7 +8,7 @@
 			<img class="where__map" src="./public/src/img/mapp.svg">
 		</div>
 		<div class="where__column-right">
-			<img class="where__photo" src="./public/src/img/where-photo.svg">
+			<img class="where__photo" src="./public/src/img/place.png">
 		</div>
 	</div>
 </div>

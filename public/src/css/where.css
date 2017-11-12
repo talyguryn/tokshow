@@ -1,6 +1,6 @@
 .where {
-	height: 650px;
-    background: url(/public/src/img/when-where-bg.svg) no-repeat;
+    height: 650px;
+    background: url(/public/src/img/place-bg.png) no-repeat;
     background-size: cover;
     background-position-y: bottom;
     background-position-x: 0;
@@ -9,52 +9,74 @@
     align-items: center;
     justify-content: center;
     margin-bottom: -100px;
+
+    &__column-left {
+        width: 300px;
+    }
+
     &__photo {
-    	height: 250px;
-    	margin-left: 50px;
+        height: 250px;
+        margin-left: 50px;
+        transform: rotate(-3deg);
     }
+
     &__contents {
-    	display: flex;
-    	align-items: center;
-    	justify-content: space-around;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
-	&__label {
-		background: url(/public/src/img/head-label.svg);
-		width: 236px;
-		height: 67px;
-		background-size: cover;
-		font-size: 36px;
-		text-align: center;
-		line-height: 67px;
-		vertical-align: middle;
-		margin-bottom: 25px;
-	}
-	&__date {
-		font-size: 30px;
-		color: var(--text-white);
-	}
-	&__time {
-		font-size: 19px;
-		color: var(--text-white);
-		margin: 10px 0;
-	}
-	&__place {
-		color: #FF8D00;
-		font-size: 16px;
-		margin-bottom: 15px;
-	}
+
+    &__label {
+        background: url(/public/src/img/head-label.svg);
+        width: 236px;
+        height: 67px;
+        background-size: cover;
+        font-size: 36px;
+        text-align: center;
+        line-height: 67px;
+        vertical-align: middle;
+        margin-bottom: 25px;
+        font-weight: bold;
+    }
+
+    &__date {
+        font-size: 30px;
+        color: var(--text-white);
+    }
+
+    &__time {
+        font-size: 19px;
+        color: var(--text-white);
+        margin: 10px 0;
+    }
+
+    &__place {
+        color: #FF8D00;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
 }
 
 @media (--mobile) {
-	.where {
-		height: auto;
-		background: radial-gradient(50% 49%, #414042 50%, #131213 85%);
-		padding: 40px 0 50px;
-		&__contents {
-			flex-direction: column;
-		}
-		&__photo {
-			height: 220px;
-		}
-	}
+    .where {
+        height: auto;
+        background: radial-gradient(50% 49%, #414042 50%, #131213 85%);
+        padding: 40px 0 50px;
+
+        &__label {
+            font-size: 26px;
+            width: 200px;
+        }
+
+        &__contents {
+            flex-direction: column;
+        }
+
+        &__photo {
+            height: 220px;
+            margin: 30px;
+            margin-bottom: 80px;
+            transform: none;
+        }
+    }
 }
