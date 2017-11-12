@@ -41,10 +41,12 @@
 }
 
 .registration__form input {
-    margin: 7px;
+    margin: 7px auto;
     padding: 12px 15px;
     border-radius: 8px;
     border: none;
+    box-sizing: border-box;
+    width: 80%;
 }
 
 .registration__form button {

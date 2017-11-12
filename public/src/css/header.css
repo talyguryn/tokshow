@@ -3,8 +3,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 450px;
-    z-index: 0;
+    height: 430px;
+    z-index: 2;
     background-position-y: -330px;
     background-position-x: -10px
 }
@@ -13,6 +13,38 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    &__itmo {
+        background: url(/public/src/img/itmo.svg) no-repeat;
+        height: 25px;
+        margin: 20px 20px 20px 40px;
+    }
+
+    &__science {
+        background: url(/public/src/img/science.svg) no-repeat;
+        height: 142px;
+        width: 600px;
+        margin: 0 auto;
+        z-index: 4;
+    }
+
+    &__register-button {
+        color: #F6921E;
+        text-align: center;
+        font-stretch: 18px;
+        background-color: #000;
+        margin: -70px auto 20px;
+        padding: 13px 0;
+        border: none;
+        width: 200px;
+    }
+
+    &__text {
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+        color: var(--text-white);
+    }
 }
 
 .header__logo {
@@ -20,7 +52,7 @@
     width: 360px;
     height: 300px;
     background-image: url(/public/src/img/tokshow-logo.svg);
-    background-position: center;
+    background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -38,14 +70,74 @@
     justify-content: space-around;
     margin: 0 auto;
     padding: 15px;
+    margin-top: -60px;
+
+    &--mobile {
+    	display: none;
+    	position: fixed;
+    	top: 0;
+    	left: 0;
+    	right: 0;
+    	height: 80px;
+	    background: #131213;
+	    z-index: 100;
+    }
+
+    &__menu-opener {
+    	color: var(--text-yellow);
+    	font-size: 20px;
+    	margin: 0 50px;
+    	cursor: pointer;
+    }
 }
 
 .navigation__item {
+	box-sizing: border-box;
     padding: 10px 15px;
     font-weight: bold;
     z-index: 10;
+    line-height: 30px;
 }
 
 .navigation a {
     color: black !important;
+}
+
+@media (--mobile) {
+    .header {
+    	margin-top: 80px;
+    	&__logo {
+    		display: none;
+    	}
+    	&__text {
+    		display: none;
+    	}
+    	&__wrapper {
+    		background-image: none;
+    		height: 0;
+    	}
+        &__science {
+            display: none;
+        }
+
+        &__itmo {
+            display: none;
+        }
+    }
+    .navigation {
+    	display: none;
+    	&--mobile {
+    		display: flex;
+    		align-items: center;
+    		justify-content: space-between;
+    		.header__logo {
+    			height: 80px;
+    			display: block !important;
+    			margin-bottom: 0;
+    			width: 200px;
+			    margin-left: auto;
+			    margin-right: 50px;
+			}
+    	}
+    }
 }

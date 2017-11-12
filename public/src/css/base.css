@@ -16,7 +16,12 @@ body {
 .page {
     margin: 0 auto;
     max-width: var(--page-max-width);
+    left: 0;
     /*background-color: var(--bg-dark);*/
+}
+.move {
+    position: relative;
+    left: 220px;
 }
 
 .space {
@@ -44,4 +49,9 @@ a:active {
     text-decoration: underline;
 }
 
-@media (--mobile) {}
+@media (--mobile) {
+    .page {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+}

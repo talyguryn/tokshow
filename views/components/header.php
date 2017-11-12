@@ -1,5 +1,11 @@
 <div class="header__wrapper">
 <header class="header">
+    <div class="header__itmo"></div>
+
+    <nav class="navigation--mobile">
+        <i class="navigation__menu-opener js-navigation__menu-opener fa fa-bars"></i>
+        <div class="header__logo"></div>
+    </nav>
 
     <div class="header__logo"></div>
 
@@ -15,11 +21,12 @@
 
     </nav>
 
-    <div class="header__register-button"></div>
+    <div class="header__register-button">Зарегистрироваться</div>
 
     <div class="header__text">
         В случае осуществления внешних проектов чаще всего это желание разрешить проблему, являющуюся причиной недостаточной  в производительности предприятия.
     </div>
 
 </header>
+<div class="header__science"></div>
 </div>
