@@ -24,7 +24,7 @@
         background: url(/public/src/img/science.svg) no-repeat;
         height: 142px;
         width: 600px;
-        margin: 0 auto;
+        margin: 30px auto;
         z-index: 4;
     }
 
@@ -56,7 +56,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 auto;
-    margin-bottom: -90px;
+    margin-top: -80px;
 }
 
 .navigation {
@@ -70,7 +70,7 @@
     justify-content: space-around;
     margin: 0 auto;
     padding: 15px;
-    margin-top: -60px;
+    margin-top: -150px;
 
     &--mobile {
     	display: none;
