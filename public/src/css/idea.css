@@ -35,13 +35,14 @@
     }
 
     &__lamp {
-        display: none;
+        /*display: none;*/
         position: absolute;
         z-index: 5;
         height: auto;
         width: 100%;
         right: 30px;
         top: 50px;
+        z-index: 40;
     }
 }
 /**
