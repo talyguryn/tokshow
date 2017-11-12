@@ -1,13 +1,15 @@
 .idea {
 	position: relative;
 	box-sizing: border-box;
-	background: var(--bg-gray) url(/public/src/img/idea-bg.svg) no-repeat;
+	background: var(--bg-gray) url(/public/src/img/idea-bg.svg);
+	background-repeat: no-repeat;
 	background-size: cover;
 	height: 410px;
 	background-position-y: -80px;
 	background-position-x: -50px;
 	padding: 40px;
 	z-index: -1;
+	top: -45px;
 
 	&__label {
 		background: url(/public/src/img/label.svg);
