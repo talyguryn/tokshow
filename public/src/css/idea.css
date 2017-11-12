@@ -7,6 +7,7 @@
 	background-position-y: -60px;
 	background-position-x: -50px;
 	padding: 40px;
+
 	&__label {
 		background: url(/public/src/img/label.svg);
 		width: 165px;
@@ -14,6 +15,7 @@
 		background-size: cover;
 		font-size: 36px;
 		text-align: center;
+        font-weight: bold;
 		line-height: 60px;
 		vertical-align: middle;
 		margin-bottom: 20px;
@@ -55,4 +57,3 @@
 		}
 	}
 }
-

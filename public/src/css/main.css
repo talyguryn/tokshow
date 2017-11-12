@@ -11,6 +11,8 @@
 @import "./base.css";
 @import "./navigator/menu.css";
 @import "./header.css";
+@import "./registration.css";
+@import "./organizers.css";
 @import "./partners.css";
 @import "./footer.css";
 @import "./idea.css";

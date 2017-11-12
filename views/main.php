@@ -12,17 +12,12 @@
 
             <?php require 'components/header.php' ?>
 
-            <div id="idea" class='space'>
-                <?php require 'components/idea.php' ?>
-            </div>
+            <?php require 'components/idea.php' ?>
             <div id="heads" class='space'></div>
             <div id="place" class='space'>Где и когда</div>
-            <div id="registration" class='space'>Регистрация</div>
-            <div id="contacts" class='space'>Контакты</div>
-            <div id="organizers" class='space'>Огранизатор</div>
-            
+            <?php require 'components/registration.php' ?>
+            <?php require 'components/organizers.php' ?>
             <?php require 'components/partners.php' ?>
-
             <?php require 'components/footer.php' ?>
 
         </div>

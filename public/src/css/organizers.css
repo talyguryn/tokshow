@@ -1,0 +1,127 @@
+.organizers {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.organizers__contacts {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.organizers__contacts-label {
+    margin: 15px;
+    width: 236px;
+
+    background-image: url(/public/src/img/contacts-label.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 69px;
+}
+
+.organizers__contacts-user {
+    width: 200px;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.organizers__contacts-user--text {}
+
+.organizers__contacts-user--link {
+    margin-top: 25px;
+    display: block;
+    color: #f6921e !important;
+}
+
+.organizers__itmo {
+    margin: 15px;
+    width: 700px;
+}
+
+.organizers__itmo-label {
+    margin: 15px;
+    width: 261px;
+
+    background-image: url(/public/src/img/organizer-label.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 73px;
+}
+
+.organizers__itmo-logo {
+    width: 307px;
+    height: 32px;
+    margin: 15px;
+    margin-top: 20px;
+    background-image: url(/public/src/img/itmo-logo.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.organizers__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.organizers__social-button {
+    margin: 10px;
+}
+
+.organizers__social-button img {
+    width: 39px;
+    height: 39px;
+}
+
+@media (--mobile) {
+    .organizers {
+        margin: 20px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .organizers__contacts-label {
+        width: 150px;
+        font-size: 24px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 45px;
+    }
+
+    .organizers__contacts-user {
+        margin-top: 20px;
+    }
+
+    .organizers__contacts {
+        flex-direction: column;
+    }
+
+    .organizers__itmo-label {
+        width: 200px;
+        font-size: 24px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 50px;
+    }
+
+    .organizers__itmo-logo {
+        width: 247px;
+    }
+}
