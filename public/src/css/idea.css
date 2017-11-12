@@ -14,7 +14,6 @@
     &__label {
         background: url(/public/src/img/label.svg);
         width: 165px;
-        height: 60px;
         background-size: cover;
         font-size: 36px;
         text-align: center;
@@ -58,6 +57,12 @@
         }
         &__lamp {
             display: none;
+        }
+
+        &__label {
+            width: 135px;
+            font-size: 26px;
+            line-height: 48px;
         }
     }
 }

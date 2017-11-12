@@ -21,4 +21,4 @@
 /**
  * Custom media queries
  */
-@custom-media --mobile all and (max-width: 980px);
+@custom-media --mobile all and (max-width: 1024px);
