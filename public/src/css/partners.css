@@ -29,8 +29,8 @@
 .partners-header__tokshow-logo {
     margin: 15px;
     width: 273px;
-    height: 157px;
-    background-image: url(/public/src/img/tokshow-logo.png);
+    height: 140px;
+    background-image: url(/public/src/img/tokshow-logo.svg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

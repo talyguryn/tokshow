@@ -1,16 +1,17 @@
+<div class="header__wrapper">
 <header class="header">
 
     <div class="header__logo"></div>
 
     <nav class="navigation">
 
-        <div class='navigation__item'>Идея</div>
-        <div class='navigation__item'>Ведущие</div>
-        <div class='navigation__item'>Где и когда</div>
-        <div class='navigation__item'>Регистрация</div>
-        <div class='navigation__item'>Контакты</div>
-        <div class='navigation__item'>Огранизатор</div>
-        <div class='navigation__item'>Партнеры</div>
+        <a href="#idea" class='navigation__item'><div>Идея</div></a>
+        <a href="#heads" class='navigation__item'><div>Ведущие</div></a>
+        <a href="#guests" class='navigation__item'><div>Гости</div></a>
+        <a href="#place" class='navigation__item'><div>Где и когда?</div></a>
+        <a href="#registration" class='navigation__item'><div>Регистрация</div></a>
+        <a href="#contacts" class='navigation__item'><div>Контакты</div></a>
+        <a href="#organizers" class='navigation__item'><div>Огранизатор</div></a>
 
     </nav>
 
@@ -21,3 +22,4 @@
     </div>
 
 </header>
+</div>
