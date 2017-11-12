@@ -37,6 +37,7 @@
         padding: 13px 0;
         border: none;
         width: 200px;
+        z-index: 15;
     }
 
     &__text {
