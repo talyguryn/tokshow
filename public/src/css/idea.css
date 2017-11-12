@@ -1,62 +1,63 @@
 .idea {
-	position: relative;
-	box-sizing: border-box;
-	background: var(--bg-gray) url(/public/src/img/idea-bg.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 410px;
-	background-position-y: -80px;
-	background-position-x: -50px;
-	padding: 40px;
-	z-index: -1;
-	top: -45px;
+    position: relative;
+    box-sizing: border-box;
+    background: var(--bg-gray) url(/public/src/img/idea-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 410px;
+    background-position-y: -80px;
+    background-position-x: -50px;
+    padding: 40px;
+    z-index: -1;
+    top: -45px;
 
-	&__label {
-		background: url(/public/src/img/label.svg);
-		width: 165px;
-		height: 60px;
-		background-size: cover;
-		font-size: 36px;
-		text-align: center;
+    &__label {
+        background: url(/public/src/img/label.svg);
+        width: 165px;
+        height: 60px;
+        background-size: cover;
+        font-size: 36px;
+        text-align: center;
         font-weight: bold;
-		line-height: 60px;
-		vertical-align: middle;
-		margin-bottom: 20px;
-	}
+        line-height: 60px;
+        vertical-align: middle;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
 
-	&__text {
-		padding-right: 265px;
-		font-size: 16px;
-		line-height: 1.5em;
-		color: var(--text-white);
-		&--yellow {
-			color: var(--text-yellow);
-		}
-	}
+    &__text {
+        padding-right: 265px;
+        font-size: 16px;
+        line-height: 1.5em;
+        color: var(--text-white);
+        &--yellow {
+            color: var(--text-yellow);
+        }
+    }
 
-	&__lamp {
+    &__lamp {
         display: none;
-		position: absolute;
-		z-index: 5;
-		height: auto;
-		width: 100%;
-	    right: 30px;
-	    top: 50px;
-	}
+        position: absolute;
+        z-index: 5;
+        height: auto;
+        width: 100%;
+        right: 30px;
+        top: 50px;
+    }
 }
 /**
  * Mobile styles
  */
 @media (--mobile) {
-	.idea {
-		height: auto;
-		width: 100%;
-		background: radial-gradient(50% 49%, #414042 50%, #131213 85%);
-		&__text {
-			padding-right: 0;
-		}
-		&__lamp {
-			display: none;
-		}
-	}
+    .idea {
+        height: auto;
+        width: 100%;
+        background: radial-gradient(50% 49%, #414042 50%, #131213 85%);
+        &__text {
+            padding-right: 0;
+        }
+        &__lamp {
+            display: none;
+        }
+    }
 }

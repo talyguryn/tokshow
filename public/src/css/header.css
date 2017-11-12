@@ -38,7 +38,11 @@
         padding: 13px 0;
         border: none;
         width: 200px;
-        z-index: 15;
+        z-index: 150;
+
+        & a {
+            color: #F6921E !important;
+        }
     }
 
     &__text {
@@ -75,26 +79,26 @@
     margin-top: -150px;
 
     &--mobile {
-    	display: none;
-    	position: fixed;
-    	top: 0;
-    	left: 0;
-    	right: 0;
-    	height: 80px;
-	    background: #131213;
-	    z-index: 100;
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        background: #131213;
+        z-index: 100;
     }
 
     &__menu-opener {
-    	color: var(--text-yellow);
-    	font-size: 20px;
-    	margin: 0 50px;
-    	cursor: pointer;
+        color: var(--text-yellow);
+        font-size: 20px;
+        margin: 0 35px;
+        cursor: pointer;
     }
 }
 
 .navigation__item {
-	box-sizing: border-box;
+    box-sizing: border-box;
     padding: 10px 15px;
     font-weight: bold;
     z-index: 10;
@@ -115,17 +119,21 @@
 
 @media (--mobile) {
     .header {
-    	margin-top: 80px;
-    	&__logo {
-    		display: none;
-    	}
-    	&__text {
-    		display: none;
-    	}
-    	&__wrapper {
-    		background-image: none;
-    		height: 0;
-    	}
+        margin-top: 80px;
+
+        &__logo {
+            display: none;
+        }
+
+        &__text {
+            display: none;
+        }
+
+        &__wrapper {
+            background-image: none;
+            height: 0;
+        }
+
         &__science {
             display: none;
         }
@@ -133,21 +141,27 @@
         &__itmo {
             display: none;
         }
+
+        &__register-button {
+            display: none;
+        }
     }
+
     .navigation {
-    	display: none;
-    	&--mobile {
-    		display: flex;
-    		align-items: center;
-    		justify-content: space-between;
-    		.header__logo {
-    			height: 80px;
-    			display: block !important;
-    			margin-bottom: 0;
-    			width: 200px;
-			    margin-left: auto;
-			    margin-right: 50px;
-			}
-    	}
+        display: none;
+
+        &--mobile {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .header__logo {
+                height: 70px;
+                display: inline-block;
+                margin-top: 0;
+                margin-right: -80px;
+                margin-bottom: 10px;
+            }
+        }
     }
 }

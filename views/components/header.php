@@ -21,7 +21,9 @@
 
         </nav>
 
-        <div class="header__register-button">Зарегистрироваться</div>
+        <div class="header__register-button">
+            <a href="#registration">Зарегистрироваться</a>
+        </div>
 
         <div class="header__text">
             В случае осуществления внешних проектов чаще всего это желание разрешить проблему, являющуюся причиной недостаточной  в производительности предприятия.
