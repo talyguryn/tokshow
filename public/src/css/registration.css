@@ -1,9 +1,13 @@
 .registration {
     margin: 20px;
     margin-bottom: 30px;
+    height: 450px;
     display: flex;
     justify-content: center;
-    background-color: orange;
+    background:url(/public/src/img/registration-bg.svg) no-repeat;
+	background-size: cover;
+	background-position-y: 0;
+	background-position-x: 0;
 }
 
 .registration__wrapper {
@@ -55,6 +59,12 @@
 
 
 @media (--mobile) {
+    .registration {
+        margin: 0;
+        background-image: none;
+        background-color: #f6921e;
+    }
+
     .registration__label {
         margin-bottom: 0;
     }

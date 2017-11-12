@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title></title>
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=no" />
         <link rel="stylesheet" href="public/build/bundle.css">
     </head>
     <body>
@@ -17,8 +17,11 @@
             <div id="place" class='space'>Где и когда</div>
             <?php require 'components/registration.php' ?>
             <?php require 'components/organizers.php' ?>
+
+            <div class="footer-background">
             <?php require 'components/partners.php' ?>
             <?php require 'components/footer.php' ?>
+            </div>
 
         </div>
 

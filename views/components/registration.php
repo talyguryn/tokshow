@@ -1,4 +1,4 @@
-<div class="registration">
+<div id="registration" class="registration">
 
     <div class="registration__wrapper">
 

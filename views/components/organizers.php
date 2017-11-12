@@ -1,6 +1,6 @@
 <div class="organizers">
 
-    <div class="organizers__contacts">
+    <div id="contacts" class="organizers__contacts">
 
         <div class="organizers__contacts-label">
             Контакты
@@ -16,7 +16,7 @@
 
     </div>
 
-    <div class="organizers__itmo">
+    <div id="organizers" class="organizers__itmo">
 
         <div class="organizers__itmo-label">
             Организатор

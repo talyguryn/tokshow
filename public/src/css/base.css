@@ -16,7 +16,7 @@ body {
 .page {
     margin: 0 auto;
     max-width: var(--page-max-width);
-    background-color: var(--bg-dark);
+    /*background-color: var(--bg-dark);*/
 }
 
 .space {
