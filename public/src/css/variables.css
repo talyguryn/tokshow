@@ -9,9 +9,13 @@
     /** Colors */
     --bg-dark: #231f20;
     --border-color: #444041;
+    --bg-gray: #E6E7E8;
 
     --link-color: #BCBEC0;
     --link-color-hover: #F4F4F4;
+
+    --text-yellow: #FFDE00;
+    --text-white: #FFF;
 }
 
 /**

@@ -12,8 +12,10 @@
 
             <?php require 'components/header.php' ?>
 
-            <div id="idea" class='space'>Идея</div>
-            <div id="heads" class='space'>Ведущие</div>
+            <div id="idea" class='space'>
+                <?php require 'components/idea.php' ?>
+            </div>
+            <div id="heads" class='space'></div>
             <div id="place" class='space'>Где и когда</div>
             <div id="registration" class='space'>Регистрация</div>
             <div id="contacts" class='space'>Контакты</div>

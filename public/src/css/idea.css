@@ -1,0 +1,58 @@
+.idea {
+	position: relative;
+	box-sizing: border-box;
+	background: var(--bg-gray) url(/public/src/img/idea-bg.svg) no-repeat;
+	background-size: cover;
+	height: 410px;
+	background-position-y: -60px;
+	background-position-x: -50px;
+	padding: 40px;
+	&__label {
+		background: url(/public/src/img/label.svg);
+		width: 165px;
+		height: 60px;
+		background-size: cover;
+		font-size: 36px;
+		text-align: center;
+		line-height: 60px;
+		vertical-align: middle;
+		margin-bottom: 20px;
+	}
+
+	&__text {
+		padding-right: 265px;
+		font-size: 16px;
+		line-height: 1.5em;
+		color: var(--text-white);
+		&--yellow {
+			color: var(--text-yellow);
+		}
+	}
+
+	&__lamp {
+		position: absolute;
+		z-index: 5;
+		height: auto;
+		width: 100%;
+	    right: 0;
+	    top: 100px;
+	}
+}
+
+/**
+ * Mobile styles
+ */
+@media (--mobile) {
+	.idea {
+		height: auto;
+		width: 100%;
+		background: radial-gradient(50% 49%, #414042 50%, #131213 85%);
+		&__text {
+			padding-right: 0;
+		}
+		&__lamp {
+			display: none;
+		}
+	}
+}
+
