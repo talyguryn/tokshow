@@ -29,22 +29,22 @@
         font-size: 16px;
         line-height: 1.5em;
         color: var(--text-white);
+
         &--yellow {
             color: var(--text-yellow);
         }
     }
 
     &__lamp {
-        display: none;
         position: absolute;
         z-index: 5;
         height: auto;
-        width: 100%;
-        right: 30px;
+        width: 190px;
+        right: 60px;
         top: 50px;
-        z-index: 40;
     }
 }
+
 /**
  * Mobile styles
  */
@@ -53,9 +53,11 @@
         height: auto;
         width: 100%;
         background: radial-gradient(50% 49%, #414042 50%, #131213 85%);
+
         &__text {
             padding-right: 0;
         }
+
         &__lamp {
             display: none;
         }

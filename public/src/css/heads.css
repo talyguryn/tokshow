@@ -110,10 +110,14 @@
         }
 
         &__guests {
-            flex-direction: column;
+            flex-flow: row wrap;
 
-            &-item h3 {
-                margin-top: 0;
+            &-item {
+                margin: 0 50px;
+
+                h3 {
+                    margin-top: 0;
+                }
             }
         }
 

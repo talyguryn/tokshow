@@ -3,8 +3,8 @@
         <div class="header__itmo"></div>
 
         <nav class="navigation--mobile">
-            <i class="navigation__menu-opener js-navigation__menu-opener fa fa-bars"></i>
             <div class="header__logo"></div>
+            <i class="navigation__menu-opener js-navigation__menu-opener fa fa-bars"></i>
         </nav>
 
         <div class="header__logo"></div>
@@ -31,4 +31,14 @@
 
     </header>
     <div class="header__science"></div>
+</div>
+
+<div class="header-mobile">
+    <div class="header-mobile__register-button">
+        <a href="#registration">Зарегистрироваться</a>
+    </div>
+
+    <div class="header-mobile__text">
+        В случае осуществления внешних проектов чаще всего это желание разрешить проблему, являющуюся причиной недостаточной  в производительности предприятия.
+    </div>
 </div>

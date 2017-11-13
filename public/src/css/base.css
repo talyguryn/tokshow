@@ -17,36 +17,27 @@ body {
     margin: 0 auto;
     max-width: var(--page-max-width);
     left: 0;
-    /*background-color: var(--bg-dark);*/
-}
-.move {
-    position: relative;
-    left: 220px;
 }
 
-.space {
-    margin: 20px;
-    background-color: #ddd;
-    height: 300px;
-}
+a {
+    &:link {
+        text-decoration: none;
+        color: var(--link-color);
+    }
 
-a:link {
-    text-decoration: none;
-    color: var(--link-color);
-}
+    &:visited {
+        text-decoration: none;
+        color: var(--link-color);
+    }
 
-a:visited {
-    text-decoration: none;
-    color: var(--link-color);
-}
+    &:hover {
+        text-decoration: underline;
+        color: var(--link-color-hover);
+    }
 
-a:hover {
-    text-decoration: underline;
-    color: var(--link-color-hover);
-}
-
-a:active {
-    text-decoration: underline;
+    &:active {
+        text-decoration: underline;
+    }
 }
 
 @media (--mobile) {

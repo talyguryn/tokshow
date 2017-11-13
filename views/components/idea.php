@@ -1,4 +1,4 @@
-<div class="idea">
+<div id="idea" class="idea">
    <div class="idea__label">Идея</div>
    <div class="idea__text">
         <span class="idea__text--yellow">В этом разделе будет дан ответ на вопрос, каким образом возникает проект.</span> Природа повода
