@@ -4,7 +4,8 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
     entry: './public/src/entry.js',
     output: {
-        filename: './public/build/bundle.js'
+        filename: './public/build/bundle.js',
+        library: 'tokshow'
     },
     module: {
         rules: [

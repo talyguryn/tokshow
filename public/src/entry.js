@@ -1,2 +1,5 @@
 require('./css/main.css');
-require('./js/header.js');
+
+module.exports = {
+  sendForm: require('./js/header.js')
+};

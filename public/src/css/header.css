@@ -3,11 +3,11 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 430px;
-    margin-left: -50px;
+    height: 370px;
+    margin-left: -30px;
     margin-right: -50px;
     z-index: 2;
-    background-position-y: -350px;
+    background-position-y: -400px;
     background-position-x: -10px;
 }
 
@@ -34,12 +34,15 @@
         color: #f6921e;
         text-align: center;
         font-stretch: 18px;
-        background-color: #000;
+        background: url(/public/src/img/reg-button-wrapper.svg) no-repeat;
+        background-position: center;
+        background-size: contain;
         margin: -70px auto 20px;
-        padding: 13px 0;
+        padding: 17px;
         border: none;
         width: 200px;
         z-index: 150;
+        transform: rotate(-1deg);
 
         & a {
             color: #f6921e !important;
@@ -48,7 +51,7 @@
 
     &__text {
         text-align: center;
-        max-width: 600px;
+        max-width: 500px;
         margin: 0 auto;
         color: var(--text-white);
     }
@@ -56,8 +59,8 @@
 
 .header__logo {
     z-index: 2;
-    width: 360px;
-    height: 300px;
+    width: 500px;
+    height: 360px;
     background-image: url(/public/src/img/tokshow-logo.svg);
     background-position: top;
     background-size: contain;
@@ -172,7 +175,8 @@
 
     .header-mobile {
         margin-top: 80px;
-        display: flex;
+        /*display: flex;*/
+        display: none;
         flex-direction: column;
         justify-content: center;
         background-color: #131213;
@@ -181,7 +185,6 @@
             color: #f6921e;
             text-align: center;
             font-stretch: 18px;
-            /*background-color: #000;*/
             margin: 20px auto 20px;
             padding: 13px 0;
             border: none;

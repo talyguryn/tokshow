@@ -55,6 +55,11 @@
     }
 }
 
+.registration__form--success {
+    font-size: 24px;
+    margin: 20px;
+}
+
 @media (--mobile) {
     .registration {
         margin: 0;
