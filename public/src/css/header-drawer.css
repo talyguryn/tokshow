@@ -7,7 +7,7 @@
     bottom: 0;
     background: #303037;
     color: #fff;
-    z-index: 5;
+    z-index: 10;
     max-width: 220px;
     transition: 0.3s;
 
