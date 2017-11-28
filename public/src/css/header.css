@@ -3,11 +3,12 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 435px;
+    height: 400px;
     margin-left: -38px;
     margin-right: -58px;
     z-index: 2;
     background-position-y: -150px;
+    background-position-x: center;
 }
 
 .header {

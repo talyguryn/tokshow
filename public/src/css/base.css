@@ -17,6 +17,7 @@ body {
     margin: 0 auto;
     max-width: var(--page-max-width);
     left: 0;
+    overflow: hidden;
 }
 
 .hide {
