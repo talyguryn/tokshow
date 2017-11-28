@@ -9,7 +9,7 @@
             <div class="heads__text">
                 <h3 class="heads__text-name">Дима Мальков</h3>
                 <p class="heads__text-bio">
-                    Необходимость разрешения проблем может быть вызвана также и требованиями рынка. Конкуренты ставят под угрозу существование предприятия, и оно должно предпринимать ответные меры, которые часто претворяются в жизнь за счет проектов.
+                    Директор Центра научной коммуникации Университета ИТМО и рациональное полушарие ТОК&nbsp;ШОУ.
                 </p>
             </div>
         </div>
@@ -23,7 +23,7 @@
             <div class="heads__text">
                 <h3 class="heads__text-name">Саша Гостев</h3>
                 <p class="heads__text-bio">
-                    Если, например, авиакомпания вводит определенную программу обслуживания пассажиров, то и остальные компании вынуждены имитировать ее и ввести на собственных авиалиниях.
+                    При необходимости профессионал в любой области, креативное полушарие ТОК&nbsp;ШОУ.
                 </p>
             </div>
         </div>
@@ -38,7 +38,10 @@
                     </div>
                 </div>
                 <div class="heads__text">
-                    <h3 class="heads__text-name">Дима Мальков</h3>
+                    <h3 class="heads__text-name">Иван Белоногов</h3>
+                    <p class="heads__text-bio">
+                        Чемпион мира по спортивному программированию, магистрант кафедры компьютерных технологий Университета ИТМО.
+                    </p>
                 </div>
             </div>
             <div class="heads__guests-item">
@@ -48,37 +51,10 @@
                     </div>
                 </div>
                 <div class="heads__text">
-                    <h3 class="heads__text-name">Дима Мальков</h3>
-                </div>
-            </div>
-            <div class="heads__guests-item">
-                <div class="heads__man-wrapper">
-                    <div class="heads__man heads__man--guest">
-                        <img src="./public/src/img/heads-1.png">
-                    </div>
-                </div>
-                <div class="heads__text">
-                    <h3 class="heads__text-name">Дима Мальков</h3>
-                </div>
-            </div>
-            <div class="heads__guests-item">
-                <div class="heads__man-wrapper">
-                    <div class="heads__man heads__man--guest">
-                        <img src="./public/src/img/heads-1.png">
-                    </div>
-                </div>
-                <div class="heads__text">
-                    <h3 class="heads__text-name">Дима Мальков</h3>
-                </div>
-            </div>
-            <div class="heads__guests-item">
-                <div class="heads__man-wrapper">
-                    <div class="heads__man heads__man--guest">
-                        <img src="./public/src/img/heads-1.png">
-                    </div>
-                </div>
-                <div class="heads__text">
-                    <h3 class="heads__text-name">Дима Мальков</h3>
+                    <h3 class="heads__text-name">Лида Перовская</h3>
+                    <p class="heads__text-bio">
+                        Тьютор кафедры компьютерных технологий, организатор соревнований по программированию.
+                    </p>
                 </div>
             </div>
         </div>
