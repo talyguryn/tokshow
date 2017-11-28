@@ -9,10 +9,7 @@
 		<li>
 			<a href="#guests" class='navigation__item'>Гости</a></li>
 		<li>
-			<a href="#place" class='navigation__item'>Где и когда?</a>
-		</li>
-		<li>
-			<a href="#registration" class='navigation__item'>Регистрация</a>
+			<a href="#videos" class='navigation__item'>Выпуски</a>
 		</li>
 		<li>
 			<a href="#contacts" class='navigation__item'>Контакты</a>

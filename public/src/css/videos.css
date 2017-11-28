@@ -25,6 +25,9 @@
         transform: translateY(-50%);
         left: 10px;
     }
+    &__arrow--mobile {
+        display: none;
+    }
 
     &__arrow-right {
         background: url(/public/src/img/ic-right.svg) no-repeat;
@@ -88,7 +91,7 @@
 }
 
 @media (--mobile) {
-    .where {
+    .videos {
         height: auto;
         background: radial-gradient(50% 49%, #414042 50%, #131213 85%);
         padding: 40px 0 50px;
@@ -98,15 +101,25 @@
             width: 200px;
         }
 
+        &__column-right {
+            position: relative;
+        }
+
+        &__arrow--mobile {
+            display: block;
+        }
+
+        &__arrow--desktop {
+            display: none;
+        }
+
         &__contents {
             flex-direction: column;
         }
-
-        &__photo {
-            height: 220px;
-            margin: 30px;
-            margin-bottom: 80px;
-            transform: none;
-        }
+    }
+}
+@media (max-width: 625px) {
+    .videos__column-right {
+        display: none;
     }
 }
