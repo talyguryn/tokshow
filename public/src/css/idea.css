@@ -48,6 +48,14 @@
 /**
  * Mobile styles
  */
+@media (max-width: 1155px) {
+    .idea {
+        background: radial-gradient(50% 49%, #414042 50%, #131213 85%);
+        height: auto;
+        padding: 50px 40px 60px;
+    }
+}
+
 @media (--mobile) {
     .idea {
         height: auto;

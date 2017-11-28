@@ -84,6 +84,7 @@
         height: 100%;
         background: #e6e7e8;
         margin-top: -45px;
+        padding-top: 30px;
 
         &-item {
             margin: 0 20px;
@@ -95,6 +96,9 @@
         justify-content: space-around;
         padding-top: 50px;
     }
+}
+.heads__guests-item .heads__text {
+    max-width: 180px;
 }
 
 @media (--mobile) {
@@ -123,7 +127,7 @@
 
         &__label {
             font-size: 26px;
-            width: 170px;
+            width: 155px;
         }
 
         &__main-item {
