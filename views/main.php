@@ -19,8 +19,8 @@
             <div id="heads">
                 <?php require 'components/heads.php' ?>
             </div>
-            <div id="place">
-                <?php require 'components/where.php' ?>
+            <div id="videos">
+                <?php require 'components/videos.php' ?>
             </div>
             <?php require 'components/registration.php' ?>
             <?php require 'components/organizers.php' ?>

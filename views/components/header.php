@@ -10,23 +10,22 @@
         <div class="header__logo"></div>
 
         <nav class="navigation">
-
             <a href="#idea" class='navigation__item'><div>Идея</div></a>
             <a href="#heads" class='navigation__item'><div>Ведущие</div></a>
             <a href="#guests" class='navigation__item'><div>Гости</div></a>
-            <a href="#place" class='navigation__item'><div>Где и когда?</div></a>
-            <a href="#registration" class='navigation__item'><div>Регистрация</div></a>
+            <a href="#videos" class='navigation__item'><div>Выпуски</div></a>
+            <!-- <a href="#registration" class='navigation__item'><div>Регистрация</div></a> -->
             <a href="#contacts" class='navigation__item'><div>Контакты</div></a>
             <a href="#organizers" class='navigation__item'><div>Огранизатор</div></a>
 
         </nav>
 
-        <div class="header__register-button">
+        <div class="header__register-button hide">
             <a href="#registration">Зарегистрироваться</a>
         </div>
 
     </header>
-    <div class="header__science"></div>
+    <div class="header__science hide"></div>
 </div>
 
 <div class="header-mobile">

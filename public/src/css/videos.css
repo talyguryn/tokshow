@@ -1,0 +1,112 @@
+.videos {
+    height: 650px;
+    background: url(/public/src/img/videos-bg.png) no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -100px;
+    position: relative;
+
+    &__column-left {
+        max-width: 270px;
+        margin-right: 20px;
+    }
+
+    &__arrow-left {
+        background: url(/public/src/img/ic-left.svg) no-repeat;
+        width: 49px;
+        height: 75px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10px;
+    }
+
+    &__arrow-right {
+        background: url(/public/src/img/ic-right.svg) no-repeat;
+        width: 49px;
+        height: 75px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
+    }
+
+    &__photo {
+        height: 250px;
+        margin-left: 50px;
+        transform: rotate(-3deg);
+    }
+
+    &__contents {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 20px;
+    }
+
+    &__label {
+        background: url(/public/src/img/head-label.svg);
+        width: 220px;
+        height: 67px;
+        background-size: cover;
+        font-size: 36px;
+        text-align: center;
+        line-height: 67px;
+        vertical-align: middle;
+        margin-bottom: 25px;
+        font-weight: bold;
+    }
+
+    &__people {
+        font-size: 16px;
+        color: var(--text-white);
+        margin: 7px 0 20px 0;
+    }
+
+    &__title {
+        color: #F6921E;
+        font-size: 24px;
+        margin: 14px 0;
+        font-weight: normal;
+    }
+
+    &__desc {
+        font-size: 16px;
+        color: var(--text-white);
+    }
+
+    &__text {
+        color: var(--text-white);
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (--mobile) {
+    .where {
+        height: auto;
+        background: radial-gradient(50% 49%, #414042 50%, #131213 85%);
+        padding: 40px 0 50px;
+
+        &__label {
+            font-size: 26px;
+            width: 200px;
+        }
+
+        &__contents {
+            flex-direction: column;
+        }
+
+        &__photo {
+            height: 220px;
+            margin: 30px;
+            margin-bottom: 80px;
+            transform: none;
+        }
+    }
+}

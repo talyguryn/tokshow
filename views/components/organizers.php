@@ -8,7 +8,7 @@
 
         <div class="organizers__contacts-user">
 
-            <div class="organizers__contacts-user--text">Валентина Левченко, специалист по связям с&nbsp;общественностью отдела имиджевых мероприятий Университета ИТМО</div>
+            <div class="organizers__contacts-user--text"><b>Валентина Левченко,</b> специалист по связям с&nbsp;общественностью отдела имиджевых мероприятий Университета ИТМО</div>
 
             <a class="organizers__contacts-user--link" href="mailto:levchenko@corp.ifmo.ru">levchenko@corp.ifmo.ru</a>
 

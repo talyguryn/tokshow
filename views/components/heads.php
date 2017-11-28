@@ -34,7 +34,7 @@
             <div class="heads__guests-item">
                 <div class="heads__man-wrapper">
                     <div class="heads__man heads__man--guest">
-                        <img src="./public/src/img/heads-1.png">
+                        <img src="./public/src/img/heads-3.jpg">
                     </div>
                 </div>
                 <div class="heads__text">

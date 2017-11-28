@@ -10,7 +10,7 @@
     margin: 0 var(--margin);
 
     &-background {
-        background: url(/public/src/img/footer-bg.svg) no-repeat;
+        background: url(/public/src/img/footer-backgroud.png) no-repeat;
         background-size: cover;
         background-position-y: 0;
         background-position-x: -2px;
