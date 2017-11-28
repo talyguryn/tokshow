@@ -25,7 +25,8 @@
         transform: translateY(-50%);
         left: 10px;
     }
-    &__arrow--mobile {
+
+    &__arrow--label {
         display: none;
     }
 
@@ -99,14 +100,27 @@
         &__label {
             font-size: 26px;
             width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+
+        &__arrow--label {
+            display: block;
+            position: absolute;
+            height: 40px;
+            background-position: center;
         }
 
         &__column-right {
             position: relative;
         }
 
-        &__arrow--mobile {
-            display: block;
+        &__arrow-left {
+            left: -50px;
+        }
+        &__arrow-right {
+            right: -50px;
         }
 
         &__arrow--desktop {
