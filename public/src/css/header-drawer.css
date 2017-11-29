@@ -2,7 +2,7 @@
     /*transform: translateX(-250px);*/
     transform: translateX(250px);
     position: fixed;
-    top: 0;
+    top: 80px;
     /*left: 0;*/
     bottom: 0;
     background: #303037;
@@ -28,7 +28,7 @@
         flex-wrap: wrap;
         padding-left: 0;
         margin: 0;
-        margin-top: 80px;
+        margin-top: 20px;
         overflow-x: hidden;
 
         li {
