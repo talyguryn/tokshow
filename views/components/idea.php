@@ -1,5 +1,5 @@
 <div id="idea" class="idea">
-   <div class="idea__label">Идея</div>
+   <div class="idea__label">О проекте</div>
    <div class="idea__text">
        Мир никогда не будет таким, как прежде! Отныне информационную повестку формируют передовые разработки, а наука – это мода поколений Y и Z.
        <br>

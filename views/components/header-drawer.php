@@ -1,13 +1,14 @@
 <div class="header-drawer js-header-drawer">
 	<nav class="header-drawer__ul">
 		<li>
-			<a href="#idea" class='navigation__item'>Идея</a>
+			<a href="#idea" class='navigation__item'>О проекте</a>
 		</li>
 		<li>
 			<a href="#heads" class='navigation__item'>Ведущие</a>
 		</li>
 		<li>
-			<a href="#guests" class='navigation__item'>Гости</a></li>
+			<a href="#guests" class='navigation__item'>Гости</a>
+        </li>
 		<li>
 			<a href="#videos" class='navigation__item'>Выпуски</a>
 		</li>

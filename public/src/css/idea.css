@@ -28,7 +28,7 @@
 
     &__label {
         background: url(/public/src/img/label.svg);
-        width: 165px;
+        width: 200px;
         background-size: cover;
         font-size: 36px;
         text-align: center;

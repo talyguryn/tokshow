@@ -4,7 +4,7 @@
         <div class='footer-left__itmo-logo'></div>
         <div class='footer-left__itmo-copyright'>
             © Университет ИТМО, 2017
-            Все права защищены и т.п.
+            Все права защищены
         </div>
     </div>
 

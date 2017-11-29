@@ -11,7 +11,7 @@
             <div class="organizers__contacts-user--text">
                 <b>Валентина Левченко,</b><br>
                 <br>
-                отдел имиджевых мероприятий Университета ИТМО
+                отдел имиджевых мероприятий Университета&nbsp;ИТМО
             </div>
 
             <a class="organizers__contacts-user--link" href="mailto:levchenko@corp.ifmo.ru">levchenko@corp.ifmo.ru</a>
@@ -26,22 +26,24 @@
             Организатор
         </div>
 
-        <div class="organizers__itmo-logo"></div>
+        <a href="http://ifmo.ru">
+            <div class="organizers__itmo-logo"></div>
+        </a>
 
         <div class="organizers__social">
             <div class="organizers__social-button">
-                <a href="#">
+                <a href="https://facebook.com/spbifmoRU">
                     <img src="/public/src/img/facebook.png">
                 </a>
             </div>
             <div class="organizers__social-button">
-                <a href="#">
+                <a href="https://vk.com/spbifmo">
                     <img src="/public/src/img/vk.png">
                 </a>
             </div>
 
             <div class="organizers__social-button">
-                <a href="#">
+                <a href="https://instagram.com/spbifmo">
                     <img src="/public/src/img/instagram.png">
                 </a>
             </div>

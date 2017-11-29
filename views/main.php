@@ -16,9 +16,9 @@
             <?php require 'components/header.php' ?>
 
             <?php require 'components/idea.php' ?>
-            <div id="heads">
-                <?php require 'components/heads.php' ?>
-            </div>
+
+            <?php require 'components/heads.php' ?>
+            
             <div id="videos">
                 <?php require 'components/videos.php' ?>
             </div>
