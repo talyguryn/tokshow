@@ -76,8 +76,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 25px;
 }
 
 .organizers__social {
@@ -96,6 +95,14 @@
     width: 39px;
     height: 39px;
 }
+
+@media (max-width: 425px) {
+    .organizers__itmo-logo {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
 
 @media (--mobile) {
     .organizers {

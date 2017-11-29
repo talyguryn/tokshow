@@ -1,7 +1,8 @@
 .videos {
     height: 650px;
-    background: url(/public/src/img/videos-bg.png) no-repeat;
+   /* background: url(/public/src/img/videos-bg.png) no-repeat;*/
     background-size: cover;
+    background: radial-gradient(50% 49%, #414042 50%, #131213 85%);
     background-position-y: bottom;
     background-position-x: 0;
     display: flex;
@@ -10,6 +11,36 @@
     justify-content: center;
     margin-bottom: -100px;
     position: relative;
+
+    &::after {
+        width: 0;
+        height: 0;
+        border-left: 1140px solid transparent;
+        border-right: 0 solid transparent;
+        border-bottom: 45px solid white;
+        margin: 0;
+        content: "";
+        display: inline-block;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        right: 0;
+    }
+
+    &::before {
+        width: 0;
+        height: 0;
+        border-left: 0px solid transparent;
+        border-right: 1140px solid transparent;
+        border-top: 50px solid white;
+        margin: 0;
+        content: "";
+        display: inline-block;
+        position: absolute;
+        bottom: 96%;
+        left: 0;
+        right: 0;
+    }
 
     &__column-left {
         max-width: 270px;

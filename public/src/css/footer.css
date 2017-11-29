@@ -10,10 +10,27 @@
     margin: 0 var(--margin);
 
     &-background {
-        background: url(/public/src/img/footer-backgroud.png) no-repeat;
-        background-size: cover;
-        background-position-y: 0;
-        background-position-x: -2px;
+        background: #1E1B3E;
+        width: 100%;
+        position: relative;
+        height: 517px;
+        border-top: 1px solid #1E1B3E;
+        margin-top: 45px;
+
+        &::before {
+            width: 0;
+            height: 0;
+            border-left: 1140px solid transparent;
+            border-right: 0px solid transparent;
+            border-bottom: 45px solid #1E1B3E;
+            margin: 0;
+            content: "";
+            display: inline-block;
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            right: 0;
+        }
     }
 
     &-left {
@@ -52,6 +69,7 @@
     }
 }
 
+
 @media (--mobile) {
     .footer {
         flex-direction: column;
@@ -67,7 +85,8 @@
 
         &-background {
             background-image: none;
-            background-color: #231f20;
+            background-color: #1E1B3E;
+            height: auto;
         }
     }
 }

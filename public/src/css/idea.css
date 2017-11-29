@@ -8,8 +8,23 @@
     background-position-y: -80px;
     background-position-x: -50px;
     padding: 40px;
-    z-index: -1;
-    top: -45px;
+    z-index: 1;
+    top: -46px;
+
+    &::after {
+        width: 0;
+        height: 0;
+        border-left: 1140px solid transparent;
+        border-right: 0 solid transparent;
+        border-bottom: 45px solid var(--bg-gray);
+        margin: 0;
+        content: "";
+        display: inline-block;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        right: 0;
+    }
 
     &__label {
         background: url(/public/src/img/label.svg);

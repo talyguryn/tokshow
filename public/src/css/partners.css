@@ -8,13 +8,14 @@
     justify-content: space-between;
     padding: 10px 25px;
     align-items: flex-end;
+    margin-top: -70px;
 }
 
 .partners-header__label {
     margin: 15px;
     width: 207px;
 
-    background-image: url(/public/src/img/partners-label.png);
+    background-image: url(/public/src/img/partners-label.svg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -59,6 +60,9 @@
 }
 
 @media (--mobile) {
+    .partners {
+        margin-top: 70px;
+    }
     .partners-header {
         justify-content: center;
     }

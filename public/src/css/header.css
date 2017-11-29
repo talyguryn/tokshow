@@ -144,8 +144,11 @@
         }
 
         &__wrapper {
-            background-image: none;
-            height: 0;
+            background-size: cover;
+            height: 180px;
+            background-position-y: center;
+            position: relative;
+            z-index: 3;
         }
 
         &__science {
@@ -175,7 +178,8 @@
                 margin-top: 0;
                 margin-bottom: 10px;
                 background-image: url(/public/src/img/footer-logo.svg);
-                background-position-x: 15px;
+                background-position-x: 0;
+                margin-left: 35px;
             }
         }
     }
@@ -211,5 +215,11 @@
             margin-bottom: 30px;
             padding: 20px;
         }
+    }
+}
+@media (max-width: 500px) {
+    .header__wrapper {
+        height: 160px;
+        background-position-y: -67px;
     }
 }
