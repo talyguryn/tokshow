@@ -9,7 +9,7 @@
     </div>
 
     <div class='footer-right'>
-        <a href="#idea"><div class='footer-right__item'>Идея</div></a>
+        <a href="#idea"><div class='footer-right__item'>О проекте</div></a>
         <a href="#heads"><div class='footer-right__item'>Ведущие</div></a>
         <a href="#heads"><div class='footer-right__item'>Гости</div></a>
         <a href="#videos"><div class='footer-right__item'>Выпуски</div></a>
