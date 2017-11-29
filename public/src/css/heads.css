@@ -1,6 +1,8 @@
 .heads {
     height: 100%;
     padding-bottom: 30px;
+    margin-left: 1px;
+    margin-right: 1px;
 
     &__text {
         text-align: center;

@@ -11,6 +11,8 @@
     justify-content: center;
     margin-bottom: -100px;
     position: relative;
+    margin-left: 1px;
+    margin-right: 1px;
 
     &::after {
         width: 0;
@@ -40,6 +42,7 @@
         bottom: 96%;
         left: 0;
         right: 0;
+        margin-left: -1px;
     }
 
     &__column-left {
