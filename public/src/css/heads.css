@@ -121,6 +121,8 @@
 
 @media (--mobile) {
     .heads {
+        margin-left: 0;
+        margin-right: 0;
         &__main {
             flex-direction: column;
             height: auto;
