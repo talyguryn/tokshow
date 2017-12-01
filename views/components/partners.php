@@ -2,7 +2,7 @@
 
     <div class="partners-header">
 
-        <div class="partners-header__label">Партнеры</div>
+        <div class="partners-header__label">Партнёр проекта</div>
         <div class="partners-header__tokshow-logo"></div>
 
     </div>

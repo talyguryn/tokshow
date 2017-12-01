@@ -18,9 +18,9 @@
 
     &__itmo {
         background: url(/public/src/img/itmo-violet.svg) no-repeat;
-        height: 57px;
-        width: 257px;
-        margin: 20px auto;
+        height: 65px;
+        width: 290px;
+        margin: 20px auto 7px;
     }
 
     &__science {
