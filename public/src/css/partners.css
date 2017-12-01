@@ -29,12 +29,13 @@
 
 .partners-header__tokshow-logo {
     margin: 15px;
-    width: 200px;
-    height: 140px;
     background-image: url(/public/src/img/footer-logo.svg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    width: 350px;
+    height: 200px;
+    margin-bottom: -65px;
 }
 
 .partners-list {
@@ -57,6 +58,7 @@
     height: 60px;
     background-color: #808285;
     display: inline-block;
+    margin-left: 40px;
 }
 
 @media (--mobile) {
@@ -92,5 +94,8 @@
     .partners-list-line {
         flex-direction: column;
         justify-content: center;
+    }
+    .partners-list-line__item {
+        margin: 0 auto;
     }
 }
