@@ -11,8 +11,6 @@
     justify-content: center;
     margin-bottom: -50px;
     position: relative;
-    margin-left: 1px;
-    margin-right: 1px;
 
     &::after {
         width: 0;
