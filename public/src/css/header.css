@@ -1,13 +1,13 @@
 .header__wrapper {
     background-image: url(/public/src/img/header.png);
     background-position: center;
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     height: 440px;
     margin-left: -38px;
     margin-right: -58px;
     z-index: 2;
-    background-position-y: -150px;
+    background-position-y: -165px;
     background-position-x: center;
 }
 
