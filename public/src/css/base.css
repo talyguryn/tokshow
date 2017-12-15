@@ -14,12 +14,27 @@ body {
     background: #000;
 }
 
+.line-overlap {
+    background: url(/public/src/img/line2.svg);
+    height: 2276px;
+    max-height: 100%;
+    max-width: 100%;
+    width: 1134px;
+    top: 700px;
+    background-position-x: -20px;
+    position: absolute;
+    z-index: 3;
+    background-repeat: no-repeat;
+
+}
+
 .page {
     margin: 0 auto;
     max-width: var(--page-max-width);
     left: 0;
     overflow: hidden;
     background: #fff;
+    position: relative;
 }
 
 .hide {
@@ -47,9 +62,21 @@ a {
     }
 }
 
+@media (max-width: 1150px) {
+    .line-overlap {
+        background-position-y: -40px;
+        background-position-x: 100%;
+        width: 98.5%;
+
+    }
+}
+
 @media (--mobile) {
     .page {
         max-width: 100%;
         overflow-x: hidden;
+    }
+    .line-overlap {
+        display: none;
     }
 }

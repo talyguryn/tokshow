@@ -79,6 +79,7 @@
         top: 50%;
         transform: translateY(-50%);
         right: 10px;
+        z-index: 30;
     }
 
     &__photo {
@@ -117,6 +118,7 @@
         color: #F6921E;
         font-size: 24px;
         margin: 14px 0;
+        margin-left: 20px;
         font-weight: normal;
     }
 

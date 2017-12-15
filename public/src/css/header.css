@@ -148,7 +148,7 @@
             height: 175px;
             background-position-y: center;
             position: relative;
-            z-index: 3;
+            z-index: 31;
         }
 
         &__science {

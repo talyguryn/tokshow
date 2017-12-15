@@ -15,6 +15,7 @@
         position: relative;
         border-top: 1px solid #1E1B3E;
         margin-top: 45px;
+        padding-top: 30px;
 
         &::before {
             width: 0;

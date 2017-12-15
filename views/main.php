@@ -14,6 +14,7 @@
         <div class="page">
 
             <?php require 'components/header.php' ?>
+            <div class="line-overlap"></div>
 
             <?php require 'components/idea.php' ?>
 
