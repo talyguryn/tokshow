@@ -20,6 +20,10 @@
     .navigation__item {
         color: var(--text-white);
         font-weight: normal;
+        padding: 0;
+        box-sizing: border-box;
+        line-height: 50px;
+        vertical-align: middle;
     }
 
     &__ul {
@@ -33,7 +37,7 @@
 
         li {
             flex-basis: 100%;
-            padding: 0 15px;
+            padding: 0px;
         }
     }
 }
@@ -43,3 +47,11 @@
     transform: translateX(0);
     transform: translateZ(0);
 }
+
+@media (min-width: 1025px) {
+    .header-drawer.is-visible {
+        transition: 0s;
+        transform: translateX(250px) !important;
+    }
+}
+
