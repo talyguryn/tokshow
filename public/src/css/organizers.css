@@ -8,6 +8,8 @@
 }
 
 .organizers__contacts {
+    position: relative;
+    z-index: 90;
     margin: 15px;
     display: flex;
     flex-direction: row;
@@ -45,6 +47,8 @@
 }
 
 .organizers__itmo {
+    position: relative;
+    z-index: 90;
     margin: 15px;
     margin-left: 100px;
     max-width: 700px;

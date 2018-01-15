@@ -21,5 +21,5 @@
 				</div>
 			</div>
 		</div>
-	<img class="videos__splash" src="/public/src/img/splash.png">
-</div>
+	</div>
+<img class="videos__splash" src="/public/src/img/splash.png">
