@@ -118,6 +118,7 @@
 
     .organizers__itmo {
         margin-left: 15px;
+        z-index: 5;
     }
 
     .organizers__contacts-label {
@@ -135,6 +136,7 @@
 
     .organizers__contacts {
         flex-direction: column;
+        z-index: 5;
     }
 
     .organizers__itmo-label {
